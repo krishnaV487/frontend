@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +35,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Box {
+  display: flex;
+}
+
+.Box:first-child {
+  margin-right: 0.8rem;
+}
+div.sticky {
+  position: sticky;
+  top: 0;
 }
