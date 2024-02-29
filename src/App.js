@@ -1,9 +1,9 @@
 import React from 'react';
 import Home from './components/Home';
 import SakilaNav from "./components/Navbar";
-import SearchFilm from './components/Searchfilm'
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+import SearchFilm from './components/Searchfilm';
+import Customer from './components/Customer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {
   BrowserRouter as Router,
@@ -22,6 +22,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Searchfilm" element={<SearchFilm />}/>
+      <Route path="/customer" element={<Customer />}/>
       </Routes>
       </Router>
     </div>
